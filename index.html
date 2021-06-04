@@ -1,22 +1,46 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <title>Beauty Parlour</title>
-    <link rel="stylesheet" href="style.css">
-    </head>
 
- <body id="home">
-
-     
-  <div class="nav" >
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="Services.html">Services</a>
-      <a href="Appointments.html">Appointments</a>
-      <a href="Products.html">Products</a>
-      <a href="Contact.html">Contacts</a>
-  </div> 
-  <h2 id="head">Sharon's Beauty Parlour  And Products</h2>
-     
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Beauty Parlour</title>
+  
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+   <script src= "main.js"></script>
+ </head>
+ <body id="body1">
+   <section>
+     <div class="container">
+     <div class="user signinBox">  
+     <div class="imgBox"><img  src="Pictures/image1.jpeg"></div>
+     <div class="formBox">
+     <form>  
+     <h2>sign-in</h2> 
+     <input type="text" name="" placeholder="Username"> 
+     <input type="password" name="" placeholder="Password">
+     <input type="submit" name="" value="Login">
+     <p class="signup">Don't have an account? <a href="#" onclick="toggleForm()">Sign-up</p>
+     </form>
+     </div>
+     </div>
+     <div class="user signupBox">  
+      <div class="formBox">
+      <form>  
+      <h2>Create an Account</h2> 
+      <input type="text" name="" placeholder="Username"> 
+      <input type="email" name="" placeholder="Email Address">
+      <input type="password" name="" placeholder="Password">
+      <input type="password" name="" placeholder="Confirm Password">
+      <input type="submit" name="" value="Sign up">
+      <p class="signup">Already have an account? <a href="#" onclick="toggleForm()">Sign in</p>
+      </form>
+      </div>
+      <div class="imgBox"><img  src="Pictures/pico2.jpg"></div>
+      </div>
+      </div>
+     </section>
  </body>
-</html>
+ </html>
